@@ -1,30 +1,48 @@
 import React from 'react';
-import { Container, Navbar, Nav, Button, Dropdown } from 'react-bootstrap';
+import { Container, Navbar, Nav, Button, Dropdown, Form, Row, Col } from 'react-bootstrap';
 
 const Header = () => {
     return (
         <Navbar bg="dark" variant="dark">
             <Container>
-                <Navbar.Brand href="#home" style={{ fontSize: '3.25rem' }}>Sorting Visualizer</Navbar.Brand>
-                <Nav>
-                    <Dropdown>
-                        <Dropdown.Toggle variant="info">
-                            Choose Algorithm
-                        </Dropdown.Toggle>
+                <Navbar.Brand href="#home" style={{ fontSize: '2.25rem' }}>Sorting Visualizer</Navbar.Brand>
+                <Navbar.Collapse className='justify-content-end'>
+                    <Nav>
+                        <Button variant="outline-info" className='m-3' style={{ fontWeight: '600' }}>New Array</Button>
+                        <Dropdown className='m-3'>
+                            <Dropdown.Toggle variant="info" style={{ fontWeight: 'bold' }}>
+                                Choose Algorithm
+                            </Dropdown.Toggle>
 
-                        <Dropdown.Menu variant="dark">
-                            <Dropdown.Item href="#/action-2">Quick Sort</Dropdown.Item>
-                            <Dropdown.Divider />
-                            <Dropdown.Item href="#/action-3">Merge Sort</Dropdown.Item>
-                            <Dropdown.Divider />
-                            <Dropdown.Item href="#/action-4">Bubble Sort</Dropdown.Item>
-                            <Dropdown.Divider />
-                            <Dropdown.Item href="#/action-4">Selection Sort</Dropdown.Item>
-                        </Dropdown.Menu>
-                    </Dropdown>
-                    <Button variant="outline-info" className='mx-3'>New Random Array</Button>
-                    <Button variant="outline-success" className='px-5'>Sort</Button>
-                </Nav>
+                            <Dropdown.Menu variant="dark">
+                                <Dropdown.Item href="#/action-2">Quick Sort</Dropdown.Item>
+                                <Dropdown.Divider />
+                                <Dropdown.Item href="#/action-3">Merge Sort</Dropdown.Item>
+                                <Dropdown.Divider />
+                                <Dropdown.Item href="#/action-4">Bubble Sort</Dropdown.Item>
+                                <Dropdown.Divider />
+                                <Dropdown.Item href="#/action-4">Selection Sort</Dropdown.Item>
+                            </Dropdown.Menu>
+                        </Dropdown>
+                        <Form>
+                            <Row>
+                                <Col>
+                                    <Form.Group className="mx-2" controlId="exampleForm.ControlInput1">
+                                        <label for="customRange1" className="form-label">Length</label>
+                                        <input type="range" className="form-range" id="customRange1" />
+                                    </Form.Group>
+                                </Col>
+                                <Col>
+                                    <Form.Group className="mx-2" controlId="exampleForm.ControlTextarea1">
+                                        <label for="customRange1" className="form-label">Speed</label>
+                                        <input type="range" className="form-range" id="customRange1" />
+                                    </Form.Group>
+                                </Col>
+                            </Row>
+                        </Form>
+                        <Button variant="outline-success" className='px-5 m-3' style={{ fontWeight: '600' }}>Sort</Button>
+                    </Nav>
+                </Navbar.Collapse>
             </Container>
         </Navbar>
     )

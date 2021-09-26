@@ -10,7 +10,7 @@ const App = () => {
             <Header />
             <main>
                 <Container>
-                    <h1>Sorting Visualizer</h1>
+
                 </Container>
             </main>
             <Footer />
