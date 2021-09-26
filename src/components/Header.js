@@ -29,14 +29,14 @@ const Header = () => {
                             <Row>
                                 <Col>
                                     <Form.Group className="mx-2" controlId="exampleForm.ControlInput1">
-                                        <label for="customRange1" className="form-label">Length</label>
-                                        <input type="range" className="form-range" id="customRange1" />
+                                        <label htmlFor="customRange1" className="form-label">Length</label>
+                                        <input type="range" className="custom-range" id="customRange1" />
                                     </Form.Group>
                                 </Col>
                                 <Col>
                                     <Form.Group className="mx-2" controlId="exampleForm.ControlTextarea1">
-                                        <label for="customRange1" className="form-label">Speed</label>
-                                        <input type="range" className="form-range" id="customRange1" />
+                                        <label htmlFor="customRange2" className="form-label">Speed</label>
+                                        <input type="range" className="custom-range" id="customRange2" />
                                     </Form.Group>
                                 </Col>
                             </Row>
