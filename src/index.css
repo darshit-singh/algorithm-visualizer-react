@@ -1,3 +1,10 @@
 main {
   min-height: 90vh;
 }
+body {
+  color: var(--bs-body-bg);
+  background-color: #fff;
+}
+/* .navbar-brand{
+  min-height: 100px;
+} */
