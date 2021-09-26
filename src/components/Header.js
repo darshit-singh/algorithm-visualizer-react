@@ -3,9 +3,10 @@ import { Container, Navbar, Nav, Button, Dropdown, Form, Row, Col } from 'react-
 
 const Header = () => {
     return (
-        <Navbar bg="dark" variant="dark">
+        <Navbar bg="dark" variant="dark" expand='lg'>
             <Container>
                 <Navbar.Brand href="#home" style={{ fontSize: '2.25rem' }}>Sorting Visualizer</Navbar.Brand>
+                <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse className='justify-content-end'>
                     <Nav>
                         <Button variant="outline-info" className='m-3' style={{ fontWeight: '600' }}>New Array</Button>
