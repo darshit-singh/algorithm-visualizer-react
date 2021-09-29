@@ -1,10 +1,10 @@
 main {
   min-height: 80vh;
 }
-body {
+/* body {
   color: var(--bs-body-bg);
   background-color: #fff;
-}
+} */
 label {
   color: #fff;
 }

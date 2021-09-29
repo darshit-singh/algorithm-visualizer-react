@@ -3,7 +3,8 @@ import { Container, Navbar, Nav, Button, Dropdown, Form, Row, Col } from 'react-
 
 const Header = () => {
     return (
-        <Navbar variant="dark" expand='lg' style={{ backgroundColor: '#222' }}>
+        // background color #222 if you need a different navbar
+        <Navbar bg="dark" variant="dark" expand='lg'>
             <Container>
                 <Navbar.Brand href="#home" style={{ fontSize: '2.25rem' }}>Sorting Visualizer</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
