@@ -10,7 +10,7 @@ const Bars = () => {
             justifyContent: 'center'
         }
     }
-    let blocks = [1, 3, 5, 6, 7, 7, 4, 6];
+    let blocks = [1, 3, 5, 6, 7, 7, 4, 6, 12, 10, 9, 19];
     return (
         <div className='arrayContainer' style={styles.arrayContainer}>
             {blocks.map(bar => {
@@ -18,7 +18,7 @@ const Bars = () => {
                     bar: {
                         backgroundColor: bg,
                         // color: color,
-                        width: '1rem',
+                        width: '1.5rem',
                         height: `${bar}rem`,
                         bottom: 0,
                         margin: '0px 2px',
@@ -26,7 +26,7 @@ const Bars = () => {
                 }
                 return (
                     <div className='bar' style={styles.bar}>
-                        <span>{bar}</span>
+
                     </div>
                 )
             })}
