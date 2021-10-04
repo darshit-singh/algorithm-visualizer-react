@@ -3,6 +3,7 @@ import React from 'react';
 import { Container } from 'react-bootstrap';
 import Header from './components/Header';
 import Footer from './components/Footer';
+import Bars from './components/Bars';
 
 const App = () => {
     return (
@@ -10,7 +11,8 @@ const App = () => {
             <Header />
             <main>
                 <Container>
-
+                    <Bars />
+                    <hr />
                 </Container>
             </main>
             <Footer />

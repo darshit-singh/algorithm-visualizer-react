@@ -1,5 +1,6 @@
 main {
-  min-height: 80vh;
+  /* min-height: 80vh; */
+  min-height: 78vh;
 }
 /* body {
   color: var(--bs-body-bg);
