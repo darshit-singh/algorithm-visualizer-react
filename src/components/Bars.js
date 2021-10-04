@@ -16,17 +16,24 @@ const Bars = () => {
             {blocks.map(bar => {
                 const styles = {
                     bar: {
+                        display: 'flex',
+                        alignItems: 'flex-end',
+                        justifyContent: 'center',
                         backgroundColor: bg,
-                        // color: color,
+                        color: 'black',
                         width: '1.5rem',
                         height: `${bar}rem`,
                         bottom: 0,
                         margin: '0px 2px',
+                        textAlign: 'center',
+                        fontSize: '12px',
+                        fontWeight: '700',
+                        borderRadius: '5px'
                     }
                 }
                 return (
                     <div className='bar' style={styles.bar}>
-
+                        {bar}
                     </div>
                 )
             })}
