@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Navbar, Nav, Button, Dropdown, Form, Row, Col } from 'react-bootstrap';
 
-const Header = ({ randomArrayGenerator }) => {
+const Header = ({ randomArrayGenerator, handleLength, arrayLength }) => {
     return (
         // background color #222 if you need a different navbar
         <Navbar bg="dark" variant="dark" expand='lg'>
@@ -30,8 +30,8 @@ const Header = ({ randomArrayGenerator }) => {
                             <Row>
                                 <Col>
                                     <Form.Group className="mx-2" controlId="exampleForm.ControlInput1">
-                                        <label htmlFor="customRange1" className="form-label">Length</label>
-                                        <input type="range" className="custom-range" id="customRange1" />
+                                        <label htmlFor="customRange1" className="form-label">Length - {arrayLength}</label>
+                                        <input type="range" className="custom-range" id="customRange1" min='10' max='200' step='1' onChange={handleLength} value={arrayLength} />
                                     </Form.Group>
                                 </Col>
                                 <Col>

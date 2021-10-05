@@ -18,16 +18,24 @@ const App = () => {
         }
         setBars(randomArray);
     }
-    let arrayLength = 200
-    const [bars, setBars] = useState([])
+    const handleLength = (e) => {
+        setArrayLength(Number(e.target.value))
+    }
+
+    const [bars, setBars] = useState([]);
+    const [arrayLength, setArrayLength] = useState(40);
 
     useEffect(() => {
         randomArrayGenerator(arrayLength)
-    }, [])
+    }, [arrayLength])
 
     return (
         <div>
-            <Header randomArrayGenerator={() => randomArrayGenerator(arrayLength)} />
+            <Header
+                randomArrayGenerator={() => randomArrayGenerator(arrayLength)}
+                handleLength={handleLength}
+                arrayLength={arrayLength}
+            />
             <main>
                 <Container>
                     <Bars bars={bars} arrayLength={arrayLength} />

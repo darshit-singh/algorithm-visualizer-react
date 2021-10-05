@@ -1,5 +1,6 @@
 .arrayContainer {
-    min-height: 60vh;
+    /* min-height: 60vh; */
+    min-height: 45rem;
     display: flex;
     align-items: flex-end;
     justify-content: center;
