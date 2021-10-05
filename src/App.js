@@ -27,8 +27,14 @@ const App = () => {
         setArrayLength(Number(e.target.value))
     }
 
+    const handleAlgorithm = (e) => {
+        setAlgorithm(e.target.value)
+    }
+
     const [bars, setBars] = useState([]);
     const [arrayLength, setArrayLength] = useState(40);
+    const [algorithm, setAlgorithm] = useState();
+
 
     useEffect(() => {
         randomArrayGenerator(arrayLength)
@@ -40,6 +46,7 @@ const App = () => {
                 randomArrayGenerator={() => randomArrayGenerator(arrayLength)}
                 handleLength={handleLength}
                 arrayLength={arrayLength}
+                handleAlgorithm={handleAlgorithm}
             />
             <main>
                 <Container>

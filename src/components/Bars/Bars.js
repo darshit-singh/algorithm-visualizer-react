@@ -17,7 +17,7 @@ const Bars = (props) => {
 
     return (
         <div className='arrayContainer'>
-            {bars.map(bar => {
+            {bars.map((bar, index) => {
                 let height = ''
                 if (arrayLength > 40) {
                     height = `${(bar * 42) / 200}rem`
@@ -33,7 +33,7 @@ const Bars = (props) => {
                     }
                 }
                 return (
-                    <div className='bar' style={styles.bar}>
+                    <div key={index} className='bar' style={styles.bar}>
                         {arrayLength <= 40 ? bar : ''}
                     </div>
                 )
