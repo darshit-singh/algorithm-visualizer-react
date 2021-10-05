@@ -18,10 +18,17 @@ const Bars = (props) => {
     return (
         <div className='arrayContainer'>
             {bars.map(bar => {
+                let height = ''
+                if (arrayLength > 40) {
+                    height = `${(bar * 42) / 200}rem`
+                }
+                else {
+                    height = `${bar}rem`
+                }
                 const styles = {
                     bar: {
                         backgroundColor: barBackground,
-                        height: `${bar}rem`,
+                        height: height,
                         width: width
                     }
                 }

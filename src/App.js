@@ -12,10 +12,15 @@ const App = () => {
             return Math.floor(Math.random() * (max - min + 1) + min)
         }
         let randomArray = [];
-        for (let i = 0; i < arrayLength; i++) {
-            // max block height 42 rem
-            randomArray.push(randomIntFromInterval(1, 42))
-        }
+
+        if (arrayLength > 40) //just so there's a bit more variation
+            for (let i = 0; i < arrayLength; i++) {
+                randomArray.push(randomIntFromInterval(1, 200))
+            }
+        else
+            for (let i = 0; i < arrayLength; i++) {
+                randomArray.push(randomIntFromInterval(1, 42))
+            }
         setBars(randomArray);
     }
     const handleLength = (e) => {
