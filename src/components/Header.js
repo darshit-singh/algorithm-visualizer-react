@@ -1,7 +1,7 @@
 import React from 'react';
 import { Container, Navbar, Nav, Button, Dropdown, Form, Row, Col } from 'react-bootstrap';
 
-const Header = () => {
+const Header = ({ randomArrayGenerator }) => {
     return (
         // background color #222 if you need a different navbar
         <Navbar bg="dark" variant="dark" expand='lg'>
@@ -10,7 +10,7 @@ const Header = () => {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse className='justify-content-end'>
                     <Nav>
-                        <Button variant="outline-info" className='m-3' style={{ fontWeight: '600' }}>New Array</Button>
+                        <Button variant="outline-info" className='m-3' style={{ fontWeight: '600' }} onClick={randomArrayGenerator}>New Array</Button>
                         <Dropdown className='m-3'>
                             <Dropdown.Toggle variant="info" style={{ fontWeight: 'bold' }}>
                                 Choose Algorithm
