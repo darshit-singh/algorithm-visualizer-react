@@ -2,7 +2,7 @@ import React from 'react';
 import './Bars.css'
 
 const Bars = () => {
-    let bg = '#3498db'; //blue
+    let barBackground = '#3498db'; //blue
     // let bg = '#b85482'; //pink
     // sorted color #00bc8c green
     function randomIntFromInterval(min, max) { // min and max included 
@@ -23,7 +23,7 @@ const Bars = () => {
             {blocks.map(bar => {
                 const styles = {
                     bar: {
-                        backgroundColor: bg,
+                        backgroundColor: barBackground,
                         height: `${bar}rem`,
                         width: width
                     }
