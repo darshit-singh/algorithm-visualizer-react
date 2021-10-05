@@ -11,15 +11,16 @@ const Bars = () => {
     let blocks = [];
     let width = '1.5rem';
     let arrayLength = 200;
+
+    if (arrayLength > 40 && arrayLength <= 100) {
+        width = '1rem'
+    } else if (arrayLength > 100) {
+        width = '0.5rem'
+    }
+
     for (let i = 0; i < arrayLength; i++) {
         // max block height 42 rem
         blocks.push(randomIntFromInterval(1, 42))
-        if (arrayLength > 40 && arrayLength <= 100) {
-            width = '1rem'
-        } else if (arrayLength > 100) {
-            width = '0.5rem'
-        }
-
     }
     return (
         <div className='arrayContainer'>
