@@ -3,7 +3,7 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). For UI I've used a free bootstrap theme called [Darkly](https://bootswatch.com/darkly/). 
 I created this project to refresh my sorting algorithm chops and also it looks neat 😄. If you're new to sorting algorithms you can slow the speed down and see the various comparision and swapping steps the algorithm goes through. This visualization will enhance your understanding of the algorithm.
 
-## Check out the [LIVE](https://darshit-singh-resume.netlify.app/) version.
+## Check out the [LIVE](https://darshit-singh.github.io/algorithm-visualizer-react/) version.
 
 ## Merge Sort Demo:
 https://user-images.githubusercontent.com/28698459/137633330-340066cc-c179-4659-b0be-9295299ed3f1.mp4
