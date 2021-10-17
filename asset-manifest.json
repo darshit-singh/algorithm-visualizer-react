@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/darshit-singh.github.io/algorithm-visualizer-react/static/css/main.32baf85a.chunk.css",
-    "main.js": "/darshit-singh.github.io/algorithm-visualizer-react/static/js/main.d8d12ba8.chunk.js",
-    "main.js.map": "/darshit-singh.github.io/algorithm-visualizer-react/static/js/main.d8d12ba8.chunk.js.map",
-    "runtime-main.js": "/darshit-singh.github.io/algorithm-visualizer-react/static/js/runtime-main.98c22b78.js",
-    "runtime-main.js.map": "/darshit-singh.github.io/algorithm-visualizer-react/static/js/runtime-main.98c22b78.js.map",
-    "static/js/2.cfd8e5c8.chunk.js": "/darshit-singh.github.io/algorithm-visualizer-react/static/js/2.cfd8e5c8.chunk.js",
-    "static/js/2.cfd8e5c8.chunk.js.map": "/darshit-singh.github.io/algorithm-visualizer-react/static/js/2.cfd8e5c8.chunk.js.map",
-    "static/js/3.61ef95bd.chunk.js": "/darshit-singh.github.io/algorithm-visualizer-react/static/js/3.61ef95bd.chunk.js",
-    "static/js/3.61ef95bd.chunk.js.map": "/darshit-singh.github.io/algorithm-visualizer-react/static/js/3.61ef95bd.chunk.js.map",
-    "index.html": "/darshit-singh.github.io/algorithm-visualizer-react/index.html",
-    "static/css/main.32baf85a.chunk.css.map": "/darshit-singh.github.io/algorithm-visualizer-react/static/css/main.32baf85a.chunk.css.map",
-    "static/js/2.cfd8e5c8.chunk.js.LICENSE.txt": "/darshit-singh.github.io/algorithm-visualizer-react/static/js/2.cfd8e5c8.chunk.js.LICENSE.txt"
+    "main.css": "/algorithm-visualizer-react/static/css/main.32baf85a.chunk.css",
+    "main.js": "/algorithm-visualizer-react/static/js/main.d8d12ba8.chunk.js",
+    "main.js.map": "/algorithm-visualizer-react/static/js/main.d8d12ba8.chunk.js.map",
+    "runtime-main.js": "/algorithm-visualizer-react/static/js/runtime-main.f7a1c326.js",
+    "runtime-main.js.map": "/algorithm-visualizer-react/static/js/runtime-main.f7a1c326.js.map",
+    "static/js/2.cfd8e5c8.chunk.js": "/algorithm-visualizer-react/static/js/2.cfd8e5c8.chunk.js",
+    "static/js/2.cfd8e5c8.chunk.js.map": "/algorithm-visualizer-react/static/js/2.cfd8e5c8.chunk.js.map",
+    "static/js/3.61ef95bd.chunk.js": "/algorithm-visualizer-react/static/js/3.61ef95bd.chunk.js",
+    "static/js/3.61ef95bd.chunk.js.map": "/algorithm-visualizer-react/static/js/3.61ef95bd.chunk.js.map",
+    "index.html": "/algorithm-visualizer-react/index.html",
+    "static/css/main.32baf85a.chunk.css.map": "/algorithm-visualizer-react/static/css/main.32baf85a.chunk.css.map",
+    "static/js/2.cfd8e5c8.chunk.js.LICENSE.txt": "/algorithm-visualizer-react/static/js/2.cfd8e5c8.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.98c22b78.js",
+    "static/js/runtime-main.f7a1c326.js",
     "static/js/2.cfd8e5c8.chunk.js",
     "static/css/main.32baf85a.chunk.css",
     "static/js/main.d8d12ba8.chunk.js"
